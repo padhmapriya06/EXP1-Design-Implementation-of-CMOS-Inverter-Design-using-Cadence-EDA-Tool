@@ -8,7 +8,7 @@ To design and implement a CMOS inverter circuit using Cadence EDA tools, analyse
 •	Personal Computer
 •	Cadence Virtuoso Software
 
-S C H E M A T I C S I M U L A T I O N - PROCEDURE FOR CREATING THE SCHEMATIC SIMULATION -Commands to get into Cadence
+# S C H E M A T I C S I M U L A T I O N - PROCEDURE FOR CREATING THE SCHEMATIC SIMULATION -Commands to get into Cadence
 
 1.	Right Click and open the terminal window
 2.	Type the following commands as follows and press enter.
@@ -17,7 +17,7 @@ S C H E M A T I C S I M U L A T I O N - PROCEDURE FOR CREATING THE SCHEMATIC SIM
 •	source /cadence/install/cshrc
 •	virtuoso 
 
-Procedure for Schematic simulation using Cadence
+# Procedure for Schematic simulation using Cadence
 
 1.	Now two windows must open
 2.	 i) virtuoso/command interpreter window
@@ -119,7 +119,7 @@ view. Ex: Inverter_test
 
 ![image](https://github.com/user-attachments/assets/160e8ee9-dd90-4633-bc94-1801ea34825a)
 
-Analog simulation by SPECTRE.
+# Analog simulation by SPECTRE.
 
 .	In test cell view window
 
@@ -141,7 +141,7 @@ Schematic using mouse
 . Execute Simulation -- Net list and Run
 ![image](https://github.com/user-attachments/assets/c4129707-a365-4ff4-9e1f-90112e8cbb58)
 
-For Transient Analysis Settings and Output
+# For Transient Analysis Settings and Output
  
 ![image](https://github.com/user-attachments/assets/e08c01a8-ba30-44c8-961a-74d2927d2297)
 
@@ -150,15 +150,15 @@ For Transient Analysis Settings and Output
 
 
 
- For DC Analysis Settings and Output
+# For DC Analysis Settings and Output
 
 ![image](https://github.com/user-attachments/assets/cd188727-41a2-494f-ae89-996136856f83)
 
+![image](https://github.com/user-attachments/assets/cdeaccf7-7ac4-461e-a3eb-3114060dae4e)
 
-![image](https://github.com/user-attachments/assets/3348aef6-a255-493b-8933-c1acf4f12672)
 
 
-Results:
+# Results:
 
 1.	Successfully designed the CMOS inverter schematic using Cadence EDA tools.
 
