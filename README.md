@@ -6,7 +6,6 @@ To design and implement a CMOS inverter circuit using Cadence EDA tools, analyse
 # Tools Required:
 
 •	Personal Computer
-
 •	Cadence Virtuoso Software
 
 S C H E M A T I C S I M U L A T I O N - PROCEDURE FOR CREATING THE SCHEMATIC SIMULATION -Commands to get into Cadence
@@ -15,9 +14,7 @@ S C H E M A T I C S I M U L A T I O N - PROCEDURE FOR CREATING THE SCHEMATIC SIM
 2.	Type the following commands as follows and press enter.
 
 •	csh
-
 •	source /cadence/install/cshrc
-
 •	virtuoso 
 
 Procedure for Schematic simulation using Cadence
@@ -41,22 +38,19 @@ v.	Analog simulation by spectre
 i)	Procedure for Creating New Library.
 
 •	File –New – Library
-
 •	Name: Give name for ur library Ex: VLSILAB_EXP_1
-
 •	Enable Attach to an existing technology library, Click OK
-
 •	Attach the library to the technology library gpdk045.Click OK
 
 ii)	Create Schematic Cell view.
 
-.	Go to 1st window i.e virtuoso (CIW)
+. Go to 1st window i.e virtuoso (CIW)
 
 . File-New-Cell view
 
-.	Setup the new file form
+. Setup the new file form
 
-.	Library: Select the one you created.
+. Library: Select the one you created.
 
 . Cell: Give the experiment name Ex: Inverter ViewSchematic
 
@@ -64,7 +58,7 @@ ii)	Create Schematic Cell view.
 
 .	Add the required components from the libraries and make the connections.
 
-.	Go to instance fixed menu or use shortcut key “I” from keypad to go instances
+. Go to instance fixed menu or use shortcut key “I” from keypad to go instances
 
 .	Click on browse. This opens the library browser
 
@@ -77,6 +71,7 @@ ii)	Create Schematic Cell view.
 .	Make the connections by using fixed narrow wire key
 
 .	Click Check and Save button
+
 ![image](https://github.com/user-attachments/assets/4f86bd98-7a04-42b3-afc5-6dbbb7f1a7a6)
 
 iii)	Creating the Symbol for schematic Cell view
@@ -102,6 +97,7 @@ iii)	Creating the Symbol for schematic Cell view
 .	Check for the position of pin side.Prss OK
 
 .	Edit for the shape by Create-Shape-Choose required options to edit.
+
 ![image](https://github.com/user-attachments/assets/9bfbf55d-7e86-4d77-8780-ddeeb9bc455d)
 
 iv)	Creating the new test cell view
@@ -120,6 +116,7 @@ view. Ex: Inverter_test
 .	Type: Schematic press OK
 
 .	Follow the step 3(ii) d to make the required connections
+
 ![image](https://github.com/user-attachments/assets/160e8ee9-dd90-4633-bc94-1801ea34825a)
 
 Analog simulation by SPECTRE.
@@ -149,10 +146,12 @@ For Transient Analysis Settings and Output
 ![image](https://github.com/user-attachments/assets/e08c01a8-ba30-44c8-961a-74d2927d2297)
 
 
-![image](https://github.com/user-attachments/assets/1ef800a0-cb1e-4668-9277-6d980dfd2db8)
+![image](https://github.com/user-attachments/assets/ded519b4-d1e6-4701-a202-7b25fd35d419)
+
 
 
  For DC Analysis Settings and Output
+
 ![image](https://github.com/user-attachments/assets/cd188727-41a2-494f-ae89-996136856f83)
 
 
